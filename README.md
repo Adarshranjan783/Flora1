@@ -3,7 +3,7 @@
 #Python must be installed in the system and Jinga2 Snippet Kit extension must be installed.
 #take the above files to your any drive and keep in any folder.
 
-#In terminal...
+#In terminal.
 #1) pip install virtualenv
 #2) virtualenv env
 #Then open the powershell terminal:-
