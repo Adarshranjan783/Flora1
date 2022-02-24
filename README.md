@@ -26,3 +26,4 @@
 #    .\env\Scripts\activate.ps1
 #    python .\app.py
 #Your server will be started.
+#http://127.0.0.1:5000/
