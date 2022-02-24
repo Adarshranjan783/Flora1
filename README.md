@@ -2,6 +2,7 @@
                                                        FLORA
 #Python must be installed in the system and Jinga2 Snippet Kit extension must be installed.
 #take the above files to your any drive and keep in any folder.
+##You will get Retrieve values data in JSON format
 
 #In terminal:-
 #   pip install virtualenv
