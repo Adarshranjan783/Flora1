@@ -13,20 +13,43 @@
 #   .\env\Scripts\activate.ps1
 #    pip install flask
 #   pip install flask-sqlalchemy
+#  pip install marshmallow-sqlalchemy
+#  pip install flask-marshmallow
+#  pip install Flask-Caching
 #   python
 #      from app import db
 #      db.create_all()
 #      exit()
-#  pip install marshmallow-sqlalchemy
-#  pip install flask-marshmallow
-#  pip install Flask-Caching
 
 #After this close the folder and then open it.
 #In terminal.
 #    .\env\Scripts\activate.ps1
 #    python .\app.py
-#Your server will be started.
-#http://127.0.0.1:5000/
+#Your server will be started
+#Home page:- http://127.0.0.1:5000/
+#Uptade any data:- http://127.0.0.1:5000/update/<int:sno>
+eg:-
+to update data with serial number-5   http://127.0.0.1:5000/update/5
+
+#Delete any data:- http://127.0.0.1:5000/delete/<int:sno>
+eg:-
+to delete data with serial number-5   http://127.0.0.1:5000/update/5
+
+#To retrieve data :- http://127.0.0.1:5000/retrieve
+
+#Enter the color in form and submit it will take you to link :- http://127.0.0.1:5000/retrieve/color/<string:color>
+eg:-
+to retrieve Red   http://127.0.0.1:5000/retrieve/color/Red
+
+#Enter the type in form and submit it will take you to link :- http://127.0.0.1:5000/retrieve/type/<string:type>
+eg:-
+to retrieve Rose   http://127.0.0.1:5000/retrieve/type/Rose
+
+#Enter the type in form and submit it will take you to link :- http://127.0.0.1:5000/retrieve/price/<int:min>/<int:max>
+eg:-
+to retrieve in range 1000 to 2000   http://127.0.0.1:5000/retrieve/price/1000/2000
+
+
 ![s1](https://user-images.githubusercontent.com/88224901/155583847-d35ad538-a9d1-4cae-978f-465672462cf5.png)
 Then to add new data to database
 ![s2](https://user-images.githubusercontent.com/88224901/155584152-bb853533-e563-4b8d-961d-e461d9ecead9.png)
