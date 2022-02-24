@@ -28,3 +28,7 @@
 #Your server will be started.
 #http://127.0.0.1:5000/
 ![s1](https://user-images.githubusercontent.com/88224901/155583847-d35ad538-a9d1-4cae-978f-465672462cf5.png)
+Then to add new data to database
+![s2](https://user-images.githubusercontent.com/88224901/155584152-bb853533-e563-4b8d-961d-e461d9ecead9.png)
+when you click on update
+![s3](https://user-images.githubusercontent.com/88224901/155584171-31701286-275e-4f3c-9533-3cf0e055dcb4.png)
