@@ -14,9 +14,9 @@ back into to terminal...
 4)pip install flask
 5)pip install flask-sqlalchemy
 6)python
->>from app import db
->>db.create_all()
->>exit()
+  from app import db
+  db.create_all()
+  exit()
 7)pip install marshmallow-sqlalchemy
 8)pip install flask-marshmallow
 9)pip install Flask-Caching
