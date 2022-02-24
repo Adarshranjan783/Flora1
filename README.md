@@ -27,7 +27,7 @@
 #    python .\app.py
 #Your server will be started
 #Home page:- http://127.0.0.1:5000/
-#Uptade any data:- http://127.0.0.1:5000/update/<int:sno>
+#Update any data:- http://127.0.0.1:5000/update/<int:sno>
 eg:-
 to update data with serial number-5   http://127.0.0.1:5000/update/5
 
