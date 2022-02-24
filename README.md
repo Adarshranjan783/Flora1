@@ -37,4 +37,9 @@ When you click on update button it opens this window
 If you want to reterive click on Retrieve(right side of Home on left top)
 ![s5](https://user-images.githubusercontent.com/88224901/155584645-4a13409e-94be-4cab-938a-5d3086d16061.png)
 If match are found
+![s6](https://user-images.githubusercontent.com/88224901/155585790-36968831-6e8d-4dab-970b-6237053f24f2.png)
+If the match is not found
+![s7](https://user-images.githubusercontent.com/88224901/155584723-d108ab40-480f-4784-867d-d5abedeb4a1d.png)
 
+If any error occurs Detail error will be shown
+![s8](https://user-images.githubusercontent.com/88224901/155584745-bb82c4fa-be49-4a44-b3e1-a397547541d2.png)
