@@ -38,7 +38,7 @@ class UserSchema(ma.Schema):
 
 
 @app.route('/', methods=['GET', 'POST'])
-@cache.cached(timeout=5)
+@cache.cached(timeout=1)
 def hello_world():
     if request.method=='POST':
         color = request.form['color']
@@ -53,7 +53,7 @@ def hello_world():
 
 
 @app.route('/retrieve', methods=['GET', 'POST'])
-@cache.cached(timeout=5)
+@cache.cached(timeout=1)
 def select():
     if request.method=='POST':
         color = request.form['color']
@@ -94,7 +94,7 @@ def retereve1(color):
         return jsonify({'flower' : output})
 
 @app.route('/retrieve/color', methods=['GET', 'POST'])
-@cache.cached(timeout=5)
+@cache.cached(timeout=1)
 def retereve():
     if request.method=='POST':
         color = request.form['color']
@@ -166,7 +166,7 @@ def reterevepric2(min,max):
         return jsonify({'flower' : output})
 
 @app.route('/retrieve/price', methods=['GET', 'POST'])
-@cache.cached(timeout=5)
+@cache.cached(timeout=1)
 def retereveprice():
     if request.method=='POST':
         min = request.form['min']
